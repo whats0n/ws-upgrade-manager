@@ -1,0 +1,48 @@
+---
+title: Index page
+---
+{% extends "layouts/_layout.html" %}
+
+{% block content %}
+	
+	<!-- begin header -->
+	<header class="header">
+		<div class="inner">
+			<h1 class="header__title">Wireless Standard Upgrade Manager</h1>
+		</div>
+	</header>
+	<!-- end header -->
+
+	<!-- begin hero -->
+	<div class="hero">
+		<div class="inner">
+			<h2 class="hero__title"><i>Get More, Do More ...</i></h2>
+			<div class="hero__description">The Latest Version of Wireless Standard is Now Available!</div>
+		</div>
+	</div>
+	<!-- end hero -->
+
+	<!-- begin content -->
+	<div class="content">
+		<div class="inner content__inner">
+			<h2 class="content__title">Welcome!</h2>
+			<p>You currently have version 9.6.0.0 of Wireless Standard Client installed on this computer, while your central system at B2B Soft has been upgraded to the new version.</p>
+			<p>Please upgrade your client software to the new version by clicking on the "Upgrade NOW" button if it's available.</p>
+			<br>
+			<p>If you can not or do not want to upgrade right now you can certainly do it a later time. You will NOT, however, be able to use this version to connect to your central system.</p>
+		</div>
+	</div>
+	<!-- end content -->
+
+	<!-- begin footer -->
+	<footer class="footer">
+		<div class="inner">
+			<div class="footer__buttons">
+				<button class="btn footer__btn">Upgrade NOW</button>
+				<button class="btn footer__btn">Upgrade Later</button>
+			</div>
+		</div>
+	</footer>
+	<!-- end footer -->
+
+{% endblock %}
